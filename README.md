@@ -21,7 +21,8 @@ Cada tema termina con un ejercicio especial: **"Llévalo a tu app"**. Ahí usas 
 | # | Tema | Lo que tu app aprende a hacer |
 |---|---|---|
 | 01 | [Variables, tipos, entrada y salida](tema-01-variables/) | Saludar, preguntar datos y responder |
-| 02 | *Próximamente* | |
+| 02 | [Condicionales y menú con while](tema-02-condicionales/) | Tomar decisiones y mostrar un menú |
+| 03 | *Próximamente* | |
 
 ## Cómo ejecutar un archivo
 
@@ -35,16 +36,25 @@ Si `python` no funciona, prueba con `py ejemplos.py` (Windows) o `python3 ejempl
 
 **¿No tienes Python en tu computador?** Puedes usar un editor en línea, como [programiz.com/python-programming/online-compiler](https://www.programiz.com/python-programming/online-compiler/): copias el código, lo pegas y das clic en *Run*.
 
-## Dónde entregas
-
-En el repositorio **de tu propia app**, nunca en este:
+## Tus tres carpetas
 
 ```
-tu-app/
-├── app.py                ← tu aplicación
-├── ejercicios/
-│   └── tema-01.py        ← tus ejercicios del tema
-└── README.md
+📁 ADSO
+   ├── 📁 python-adso         → este material. Solo lees, ejecutas y haces git pull
+   ├── 📁 practicas-python    → TU repositorio de ejercicios: tema-01.py, tema-02.py...
+   └── 📁 nombre-de-tu-app    → TU app: README, .gitignore, docs/ y src/app.py
+```
+
+- Los **ejercicios** van en `practicas-python`.
+- El ejercicio **"Llévalo a tu app"** va en el repositorio de tu app.
+- Nunca entregas nada en `python-adso`.
+
+## Cómo traer un tema nuevo
+
+```bash
+cd python-adso
+git branch     # debe mostrar: * main
+git pull       # trae lo nuevo que se publicó en GitHub
 ```
 
 ## La regla de la IA

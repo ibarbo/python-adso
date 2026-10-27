@@ -22,7 +22,8 @@ Cada tema termina con un ejercicio especial: **"Llévalo a tu app"**. Ahí usas 
 |---|---|---|
 | 01 | [Variables, tipos, entrada y salida](tema-01-variables/) | Saludar, preguntar datos y responder |
 | 02 | [Condicionales y menú con while](tema-02-condicionales/) | Tomar decisiones y mostrar un menú |
-| 03 | *Próximamente* | |
+| 03 | [Listas y ciclo for](tema-03-listas/) | Guardar varios registros y recorrerlos |
+| 04 | *Próximamente* | |
 
 ## Cómo ejecutar un archivo
 
